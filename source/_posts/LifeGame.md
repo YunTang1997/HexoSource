@@ -3,7 +3,7 @@ title: 【闲疯帝】EasyX康威生命游戏的简单实现
 date: 2020-02-05 11:38:22
 tags: Borring
 categories: 闲疯帝
-thumbnail: "https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/LifeGame/Conways_game_of_life_breeder_animation.gif"
+thumbnail: 
 comments: 
 toc: true
 disqusId: ccyhweb
@@ -12,8 +12,9 @@ disqusId: ccyhweb
 ## 规则
 ---
 生命游戏中，对于任意细胞，规则如下：
-<!-- more -->
+
 &emsp;每个细胞有两种状态 - 存活或死亡，每个细胞与以自身为中心的周围八格细胞产生互动（如图，黑色为存活，白色为死亡）
+<!-- more -->
 * 当前细胞为存活状态时，当周围的存活细胞低于2个时（不包含2个），该细胞变成死亡状态。（模拟生命数量稀少）
 * 当前细胞为存活状态时，当周围有2个或3个存活细胞时，该细胞保持原样。
 * 当前细胞为存活状态时，当周围有超过3个存活细胞时，该细胞变成死亡状态。（模拟生命数量过多）

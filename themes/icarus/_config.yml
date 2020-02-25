@@ -137,7 +137,7 @@ widgets:
         # Author name to be shown in the profile widget
         author: Linyuhang
         # Title of the author to be shown in the profile widget
-        
+        author_title: 别想一下造出大海，必须先由小河川开始
         # Author's current location to be shown in the profile widget
         location: Fujian·China
         # Path or URL to the avatar to be shown in the profile widget
@@ -147,11 +147,8 @@ widgets:
         # Path or URL for the follow button
         follow_link: 'https://blog.csdn.net/Marvine'
         # Links to be shown on the bottom of the profile widget
-        author_title: 别想一下造出大海，必须先由小河川开始
-    
-    -
-        type: music
-        position: right
+        
+        
     -
         # Widget name
         type: category

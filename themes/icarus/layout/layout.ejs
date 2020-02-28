@@ -7,7 +7,7 @@
 <head>
     <%- partial('common/head') %>
 </head>
-<body class="is-<%= column_count() %>-column">
+<body id="mydiv" class="is-<%= column_count() %>-column">
     <%- partial('common/navbar', { page }) %>
 
     <% function main_column_class() {
@@ -60,7 +60,7 @@
     <amp-auto-ads type="adsense"
               data-ad-client="ca-pub-7097707906527513">
 </amp-auto-ads>
-<div id="mydiv" style="height:100%;"></div>
+
 <script type="text/javascript">
         window.onload = function() {
             //配置

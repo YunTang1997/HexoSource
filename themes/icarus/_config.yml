@@ -30,7 +30,7 @@ navbar:
         📭留言: "https://www.ccyh.xyz/messagebd/index.html"
         🔗友情の链接: "https://www.ccyh.xyz/photos/index.html"
         💡MyLeetCode: "https://leetcode-cn.com/u/ccyh/"
-        🌜CSDN: "https://blog.csdn.net/Marvine"
+        👀关于: "https://www.ccyh.xyz/about/index.html"
         
     # Navigation bar links to be shown on the right
     links:
@@ -229,7 +229,7 @@ providers:
 cnzz: cnzz_stat_icon_1277370683
 
 live2d:
-  enable: true
+  enable: false
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/

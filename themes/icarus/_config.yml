@@ -27,10 +27,10 @@ navbar:
         📚归档: /archives
         🎏分类: /categories
         🔖标签: /tags
-        📭留言: "https://www.ccyh.xyz/messagebd/index.html"
-        🔗友情の链接: "https://www.ccyh.xyz/photos/index.html"
+        📭留言: "https://www.ccyh.xyz/messagebd/"
+        🔗友情の链接: "https://www.ccyh.xyz/photos/"
         💡MyLeetCode: "https://leetcode-cn.com/u/ccyh/"
-        👀关于: "https://www.ccyh.xyz/about/index.html"
+        👀关于: "https://www.ccyh.xyz/about/"
         
     # Navigation bar links to be shown on the right
     links:

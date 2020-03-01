@@ -8,7 +8,7 @@
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script>
     new Valine({
-        el: '#vcomments',
+        el: '#valine-thread',
         notify: <%= get_config('comment.notify') %>,
         verify: <%= get_config('comment.verify') %>,
         app_id: '<%= get_config('comment.app_id') %>',

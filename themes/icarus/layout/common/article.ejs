@@ -149,6 +149,11 @@
 
 <% if (!index && has_config('comment.type')) { %>
 <div class="card">
+    <span id="<%= post.link %>" class="leancloud_visitors" data-flag-title="<%= post.title %>">
+        <em class="post-meta-item-text">阅读量 </em>
+        <i class="leancloud-visitors-count"></i>
+    </span>
+
     <div class="card-content">
         <h3 class="title is-5 has-text-weight-normal"><%= __('article.comments') %></h3>
         <%- partial('comment/' + get_config('comment.type')) %>

@@ -77,7 +77,7 @@ comment:
       type: valine
       app_id: 'oR2IQXqpGEFy4GHNDgdmfSMR-gzGzoHsz'
       app_key: 'hwYfVGzICBlXGiokUXaNqJsx'
-      notify: true
+      notify: false
       verify: true
       avatar: 'retro'
       visitor: true

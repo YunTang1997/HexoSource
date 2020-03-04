@@ -40,6 +40,9 @@ navbar:
         RSS:
             icon: fab fa-forumbee
             url: 'https://www.ccyh.xyz/atom.xml'
+        LeetCode:
+            icon: fab fa-gitlab
+            url: 'https://leetcode-cn.com/u/ccyh/'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
@@ -272,8 +275,8 @@ copyright:
     enable: true
     # img: http://ostu98x74.bkt.clouddn.com/copyright/copyright.png #版权信息图片
     site: http://www.inicb.com  #版权信息所属网址
-    siteName: CODEHUB #版权信息网站名字
-    siteAuthor: 'Linyuhang' #版权归属人
+    siteName: LIAMSBLOG #版权信息网站名字
+    siteAuthor: 'Liam' #版权归属人
 
 tidio:
     enable: false

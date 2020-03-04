@@ -35,10 +35,10 @@ navbar:
     # Navigation bar links to be shown on the right
     links:
         My GitHub:
-            icon: fab fa-github
+            icon: fab fa-git-square
             url: 'https://github.com/YHCClin?tab=repositories'
         RSS:
-            icon: fab fa-rss-square
+            icon: fab fa-forumbee
             url: 'https://www.ccyh.xyz/atom.xml'
 # Footer section link settings
 footer:

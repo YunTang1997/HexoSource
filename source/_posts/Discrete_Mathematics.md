@@ -44,7 +44,7 @@ $p \qquad q$ | $p\rightarrow q$ | $p\leftrightarrow q$
  
 例：判断公式$p\wedge r \wedge \neg(q\rightarrow p)$的类型（真值表法）
 
-$p \quad q \quad r$ | $p\wedge r$ | $p\rightarrow q$ | $\neg(q\rightarrow p)$ | $p\wedge r\wedge \neg(q\rightarrow p)$  
+$p \quad q \quad r$ | $p\wedge r$ | $p\rightarrow q$ | $\neg(p\rightarrow q)$ | $p\wedge r\wedge \neg(p\rightarrow q)$  
 -|-|-|-|-
  $0 \quad 0 \quad 0$ | 0 | 1 | 0 | 0
  $0 \quad 0 \quad 1$ | 0 | 1 | 0 | 0

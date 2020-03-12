@@ -8,6 +8,8 @@ comments: true
 toc: true
 disqusId: ccyhweb
 ---
+
+
 ## 求解问题的步骤
 
 (1) 已知前提$F$用谓词公式表示并化为子句集$S$

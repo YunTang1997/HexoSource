@@ -23,7 +23,7 @@
     margin: 10px;
     background-color: transparent;
     text-align: left;
-    font-style: SimSun;
+    font-family: Lato, sans-serif;
 }
 .link_card:hover{
     background-size: 120%;

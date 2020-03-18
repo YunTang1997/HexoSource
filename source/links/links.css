@@ -1,6 +1,7 @@
 .row {
     display: flex;
     width:90%;
+    align-items: left;
 }
 .back {
   width: 70%;

@@ -356,3 +356,7 @@ body {
     margin: 0 auto;
     display: block;
 }
+
+.font1 {
+  font-family: Lato, sans-serif;
+}

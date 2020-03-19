@@ -25,6 +25,7 @@
                         <%= get_config_from_obj(widget, 'author_title') %>
                     </p>
                     <% } %>
+                    <div id="binft" align="center" style="margin:5px;"></div>
                     <% if (get_config_from_obj(widget, 'location')) { %>
                     <p class="is-size-6 is-flex is-flex-center has-text-grey">
                         <i class="fas fa-map-marker-alt has-mr-7"></i>
@@ -87,8 +88,8 @@
         </div>
         <% } %>
     </div>
-    <div style="margin-left:auto;margin-right:auto;padding:5px">
-        <hr>
+    <div style="margin-left:auto;margin-right:auto;padding:10px">
+        <hr style="width:70%;">
         <p align="center" id="hitokoto"></p>
         <script type="text/javascript" defer="">
             function getYiyan(){
@@ -102,7 +103,7 @@
         </script>
     </div>
     <div align="center" style="margin-bottom: 10px;">
-        <div id="binft" align="center" style="margin:5px;"></div>
+        
         <script>
                     var binft = function (r) {
                       function t() {

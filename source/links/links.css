@@ -15,11 +15,12 @@
 }
 .link_card {
     display: flex;
-    flex: 3;
+    flex: 2.6;
     border-radius: 18px;
     width: 30%;
     height: 95px;
-    padding: 10px;
+    padding-top: auto;
+    padding-bottom: auto;
     margin-top: 15px;
     margin: 10px;
     background-color: transparent;
@@ -27,44 +28,41 @@
     font-family: Lato, sans-serif;
 }
 .link_card:hover{
-    background-size: 120%;
-    box-shadow: 3px 3px 3px #888888;
-    color: #734ADD;
-    color: white;
-    background: linear-gradient(90deg, #00dbde, #fc00ff, #00dbde);
-    background-size: 300%;
-    border-radius: 8px;
-    position: relative;
-    padding: 1rem 3rem;
-    font-family: Lato, sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    border: transparent;
-    outline: transparent;
-    cursor: pointer;
-    user-select: none;
-    white-space: nowrap;
-    animation: glow 8s linear infinite;
+  background-color: honeydew;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 }
 .card_img{
-    flex: 1;
+    flex: 2;
     vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .card_img img {
-    width: 60px;
-    height: 60px;  
+    width: 68px;
+    height: 68px;  
     margin-top: auto;
     margin-bottom: auto;
+    border-radius: 50%;
 }
 
 .link_content {
     flex: 8;
     margin-left: 10px;
+}
+
+
+.link_card:hover .card_img{
+	  transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
 }
 
 .title{
@@ -102,7 +100,7 @@ img{
 .category_dl{
     font-family: "楷体","楷体_GB2312";
     width: 90%;
-    height: 60px;
+    height: 3px;
     margin-top: 20px;
     font-size: 24px;
     text-align: center;
@@ -169,8 +167,8 @@ hr.style-one {
 }
 
 .format{
-    font-family: "楷体","楷体_GB2312";
-    width: 60%;
+    font-family: Lato, sans-serif;
+    width: 70%;
     margin-top: 20px;
     font-size: 14px;
     text-align: left;
@@ -179,8 +177,8 @@ hr.style-one {
     border-radius: 8px;
     line-height: 25px;
     color: black;
-    border-left: 4px solid #6F42C1;
-    background-color: rgba(104,33,122,0.5);
+    border-left: 4px solid honeydew;
+    background-color: #f7f7f7;
     font-weight: bold;
 }
 .format p{

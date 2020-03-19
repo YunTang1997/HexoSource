@@ -30,6 +30,11 @@
 .link_card:hover{
   background-color: honeydew;
   box-shadow: 0 0 8px #9B969C;
+  
+  opacity:0.8;
+  color:#A986B3;
+  text-shadow:0px 0px 20px grey;
+  animation:myanim 800ms infinite linear;
 }
 .card_img{
     flex: 2;
@@ -58,7 +63,25 @@
     margin-top: auto;
     margin-bottom: auto;
 }
-
+.link_content span{
+  color: honeydew;
+  font-family: SimSun;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid grey;
+  background-color: #67BA84;
+}
+.link_content span:hover {
+  background-color: #007A26;
+}
 
 .link_card:hover .card_img{
 	  transform: rotate(360deg);
@@ -70,23 +93,41 @@
 
 .title{
     padding: 0px;
-    color: #000;
+    color: #68B983;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
+    display: inline-block;
+}
+.title:hover{
+  opacity:0.8;
+  color:#D039FE;
+  text-shadow:0px 0px 20px white;
+  animation:myanim 200ms infinite linear;
 }
 .title a{
-    color: #000;
+    color: #68B983;
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;
     padding: 0;
 }
 .title a:hover{
-    color: #D480AA;
+  opacity:0.8;
+  color:#003D13;
+  text-shadow:0px 0px 20px grey;
+  animation:myanim 500ms infinite linear;
+}
+
+@keyframes myanim 
+{
+  10%{transform:scale(1)rotate(0deg);}
+  20%{transform:scale(1)rotate(-3deg);}
+  80%{transform:scale(1)rotate(3deg);}
+  100%{transform:scale(1)rotate(0deg);}
 }
 
 .description{
-    color: #000;
+    color: grey;
     text-align: justify;
     font-size: 13px;
     margin-bottom: 15px;

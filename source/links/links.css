@@ -29,7 +29,7 @@
 }
 .link_card:hover{
   background-color: honeydew;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 8px #9B969C;
 }
 .card_img{
     flex: 2;
@@ -45,7 +45,8 @@
 
 .card_img img {
     width: 68px;
-    height: 68px;  
+    height: 68px;
+    margin-left: 4px;
     margin-top: auto;
     margin-bottom: auto;
     border-radius: 50%;
@@ -83,12 +84,7 @@
 .title a:hover{
     color: #D480AA;
 }
-img{
 
-    border-radius: 50px;
-    margin-top: 13px;
-    text-align: center;
-}
 .description{
     color: #000;
     text-align: justify;
@@ -181,7 +177,8 @@ hr.style-one {
     color: black;
     border-left: 4px solid honeydew;
     background-color: #f7f7f7;
-    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 .format p{
     text-align: left;

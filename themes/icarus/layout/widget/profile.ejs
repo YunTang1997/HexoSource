@@ -96,7 +96,7 @@
             $.getJSON("https://v1.hitokoto.cn/", function (data) {
             if(data){
                 $('#hitokoto').html("");
-                $('#hitokoto').append("<strong style='color: #3273dc;'>"+data.hitokoto+"</strong>"+
+                $('#hitokoto').append("<strong style='color: #77C08F;'>"+data.hitokoto+"</strong>"+
                 "<p>"+"来源《"+data.from+"》</p><p>提供者-"+data.creator+"</p>");
             }});}
             $(function (){getYiyan();$('#hitokoto').click(function(){getYiyan();})});

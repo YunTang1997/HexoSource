@@ -7,7 +7,7 @@
 <head>
     <%- partial('common/head') %>
 </head>
-<body class="is-<%= column_count() %>-column">
+<body class="is-<%= column_count() %>-column" >
     <%- partial('common/navbar', { page }) %>
     <% function main_column_class() {
     
@@ -32,8 +32,10 @@
     } %>
     <section class="section">
         <div class="container">
-            <div class="columns">
-                <div class="column <%= col() %> has-order-2 column-main"><%- body %></div>
+            <div id="mydiv" class="columns">
+                <div class="column <%= col() %> has-order-2 column-main">
+                    <%- body %>
+                </div>
                 <%- partial('common/widget', { position: 'left' }) %>
                 <%- partial('common/widget', { position: 'right' }) %>
             </div>
@@ -57,15 +59,15 @@
         window.onload = function() {
             //配置
             var config = {
-                vx: 4,  //小球x轴速度,正为右，负为左
-                vy: 4,  //小球y轴速度
+                vx: 3,  //小球x轴速度,正为右，负为左
+                vy: 3,  //小球y轴速度
                 height: 3,  //小球高宽，其实为正方形，所以不宜太大
                 width: 3,
-                count: 200,     //点个数
-                color: "130,222,222",     //点颜色
-                stroke: "130,255,255",      //线条颜色
+                count: 100,     //点个数
+                color: "50,163,84",     //点颜色
+                stroke: "50,163,84",      //线条颜色
                 dist: 6000,     //点吸附距离
-                e_dist: 20000,  //鼠标吸附加速距离
+                e_dist: 2000,  //鼠标吸附加速距离
                 max_conn: 10    //点到点最大连接数
             }
 

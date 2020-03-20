@@ -11,7 +11,15 @@
         <% if (post.layout != 'page') { %>
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
+                <% if(post.top) { %>
+                <span>
+                    <i class="fa fa-arrow-circle-up"></i>
+                    <font color=32A354>置顶</font>
+                    <span class="post-meta-divider">| </span>
+                </span>
+                <% } %>
                 <time class="level-item has-text-grey" datetime="<%= date_xml(post.date) %>"><%= date(post.date) %></time>
+                <i class="fa fa-folder-open"> </i>
                 <% if (post.categories && post.categories.length) { %>
                 <div class="level-item">
                 <%- list_categories(post.categories, {
@@ -22,8 +30,10 @@
                 }) %>
                 </div>
                 <% } %>
+                
                 <% if (!has_config('article.readtime') || get_config('article.readtime') === true) { %>
                 <span class="level-item has-text-grey">
+                    
                     <% const words = word_count(post._content); %>
                     <% const time = duration((words / 150.0) * 60, 'seconds') %>
                     <%= `${ time.locale(get_config('language', 'en')).humanize() } ${ __('article.read')} (${ __('article.about') } ${ words } ${ __('article.words') })` %>

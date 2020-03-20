@@ -17,7 +17,7 @@ html
     cursor: url('./menghuan.ico')
 
 body
-    background-color: #ffffff;
+    background-color: transparent;
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment:fixed;
@@ -73,10 +73,10 @@ a {
         background: #e8e8e8
 
 .card
-    background-color: #ffffff;
-    border-radius: 8px
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 12px
     border: 0px solid transparent;
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     margin-top: 20px
     margin-bottom: 20px
     & + .column-right-shadow
@@ -99,7 +99,8 @@ h1:hover
     color: #77C08E
 
 .card:hover
-    box-shadow: 0 0 8px rgba(240, 240, 240, 0.8);
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0 0 10px rgba(50,163,84,0.2);
 
 img.thumbnail
     object-fit: cover
@@ -166,6 +167,9 @@ img.thumbnail
         .navbar-end
             margin-left: 0
 
+.navbar-main:hover
+    box-shadow: 0 0 10px rgba(50,163,84,0.7);
+
 .footer
     background: linear-gradient(to right,rgba(257,149,52,0.9),rgba(240,90,109,0.9),rgba(126,107,176,0.9),rgba(7,178,155,0.9),rgba(106,185,130,0.9))
     font-family: Lato, sans-serif;
@@ -174,7 +178,8 @@ img.thumbnail
     .field
         .button
             background: transparent
-
+.footer:hover
+    box-shadow: 0 0 10px rgba(50,163,84,0.7);
 .widget
     .media
         border: none

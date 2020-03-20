@@ -1,11 +1,13 @@
 ---
 title: 【数据结构】树
-date: 2019-03-05 18:46:04
 tags: Tree
 categories: 数据结构
 toc: true
 comments: true
-thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBLDbFr6CW_eRLtMdxvN1k9RSobzPNrCVdZsQQUEx8ZBqb5p2Q'
+thumbnail: >-
+  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBLDbFr6CW_eRLtMdxvN1k9RSobzPNrCVdZsQQUEx8ZBqb5p2Q
+abbrlink: c6a8
+date: 2019-03-05 18:46:04
 ---
 
 #### 树的基本概念

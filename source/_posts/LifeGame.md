@@ -1,12 +1,13 @@
 ---
 title: 【闲疯帝】EasyX康威生命游戏的简单实现
-date: 2020-02-05 11:38:22
 tags: Borring
 categories: 闲疯帝
-thumbnail: 
-comments: 
 toc: true
 disqusId: ccyhweb
+abbrlink: 20c
+date: 2020-02-05 11:38:22
+thumbnail:
+comments:
 ---
 
 ## 规则

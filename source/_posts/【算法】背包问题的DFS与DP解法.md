@@ -1,11 +1,13 @@
 ---
 title: 【算法】背包问题的DFS与DP解法
-date: 2019-03-14 20:03:54
 tags: Algorithm
 categories: 算法
-thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Knapsack.svg/250px-Knapsack.svg.png"
+thumbnail: >-
+  https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Knapsack.svg/250px-Knapsack.svg.png
 comments: true
 toc: true
+abbrlink: 2efa
+date: 2019-03-14 20:03:54
 ---
 ### Kanapsack Problem
 -----------------------

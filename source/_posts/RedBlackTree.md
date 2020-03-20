@@ -1,12 +1,14 @@
 ---
 title: 图解红黑树
-date: 2020-01-30 10:08:31
 tags: Tree
 categories: 数据结构
-thumbnail: "https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/RedBlackTree/20200130110010645.png"
-comments: 
+thumbnail: >-
+  https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/RedBlackTree/20200130110010645.png
 toc: true
 disqusId: ccyhweb
+abbrlink: 5fb
+date: 2020-01-30 10:08:31
+comments:
 ---
 
 ## 红黑树的基本结构

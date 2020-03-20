@@ -1,12 +1,13 @@
 ---
 title: 命题逻辑基础
-date: 2020-03-05 12:09:20
 tags: discretemathematics
 categories: Mathematics
 thumbnail: false
 comments: true
 toc: true
 disqusId: ccyhweb
+abbrlink: '4375'
+date: 2020-03-05 12:09:20
 ---
 
 ---

@@ -1,12 +1,13 @@
 ---
-title: 侯捷C++学习笔记[未整理版]
-date: 2019-11-13 22:13:59
+title: '侯捷C++学习笔记[未整理版]'
 tags: C++
-categories: C++ 
-thumbnail:
-comments: 
+categories: C++
 toc: true
 disqusId: ccyhweb
+abbrlink: 6c8e
+date: 2019-11-13 22:13:59
+thumbnail:
+comments:
 ---
 
 > 还没有整理过的笔记，有点乱

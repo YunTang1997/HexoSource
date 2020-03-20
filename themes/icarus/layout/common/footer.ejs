@@ -13,22 +13,26 @@
                 ©️ 2019 👉 <%= date(new Date(), 'YYYY') %> <%= get_config('author') || get_config('title') %>&nbsp;
                 💖 Powered 
                 </p>
+                <p class="post-count">📜 站点字数统计 <font color=#6DE8DD> <%= totalcount(site) %> </font> 字</p>
+                <p id="busuanzi_container_site_pv" class="theme-info">📑 总访问-<span id="busuanzi_value_site_pv" style="color:#6DE8DD;"></span>-次 |</p>
+                <p id="busuanzi_container_site_uv" class="theme-info">👤 总访客-<span id="busuanzi_value_site_uv" style="color:#6DE8DD;"></span>-位</p>
+                <p>🌏 <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></p>
             </div>
             
             <script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
+                (function(){
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    }
+                    else {
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
 
             
             <div class="level-end">
@@ -50,10 +54,7 @@
                 </div>
             <% } %>
             </div>
-        <div align="center" style="font-family:SimSun;background-image: -webkit-linear-gradient(bottom, rgb(253, 171, 97), rgb(79, 189, 200));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;">
-            <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+        <div align="center">
             <script>
                 var now = new Date(); 
                 function createtime() { 
@@ -68,18 +69,12 @@
                     document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
                     document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
                 } 
-            setInterval("createtime()",250);
+                setInterval("createtime()",250);
             </script>
-            <div align="center" style="background-image: -webkit-linear-gradient(bottom, rgb(253, 171, 97), rgb(79, 189, 200));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;">
-            <span id="busuanzi_container_site_pv" class="theme-info">👽本站总访问-<span id="busuanzi_value_site_pv" style="font-size:15px;color:#6DE8DD;"></span>-次➰
-              </span>
-              <span id="busuanzi_container_site_uv" class="theme-info">本站总访客-<span id="busuanzi_value_site_uv" style="font-size:15px;color:#6DE8DD;"></span>-位👽</span>
-
-            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            </div>
         </div>
+
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
         <span>
         <script type="text/javascript" src="//rf.revolvermaps.com/0/0/4.js?i=0xetp0d4rdh&amp;m=7&amp;h=60&amp;c=ff8a00&amp;r=40" async="async"></script>
         </span>

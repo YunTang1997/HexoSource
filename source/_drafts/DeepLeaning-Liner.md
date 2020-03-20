@@ -1,12 +1,14 @@
 ---
 title: DeepLeaning-LinerRegression(0)
-date: 2020-01-17 15:06:44
-tags:
-categories: 
-thumbnail: "https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/LinerRegression/1024px-Linear_regression.svg.png"
-comments: 
+thumbnail: >-
+  https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/LinerRegression/1024px-Linear_regression.svg.png
 toc: true
 disqusId: ccyhweb
+abbrlink: f4cb
+date: 2020-01-17 15:06:44
+tags:
+categories:
+comments:
 ---
 
 ## 线性回归及其Python实现

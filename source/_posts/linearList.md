@@ -1,11 +1,12 @@
 ---
 title: 【数据结构】线性表
-date: 2019-03-06 18:46:04
 tags: List
 categories: 数据结构
 toc: true
 comments: true
 thumbnail: false
+abbrlink: ae1f
+date: 2019-03-06 18:46:04
 ---
 
 ---

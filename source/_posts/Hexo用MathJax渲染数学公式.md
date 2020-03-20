@@ -1,12 +1,13 @@
 ---
 title: Hexo用MathJax渲染数学公式
-date: 2019-04-30 17:24:31
 tags: Hexo
-categories: 教程 
+categories: 教程
 thumbnail: false
 comments: true
 toc: true
 disqusId: ccyhweb
+abbrlink: cb3f
+date: 2019-04-30 17:24:31
 ---
 
 ## 更改默认Markdown渲染引擎

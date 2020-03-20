@@ -1,12 +1,13 @@
 ---
 title: Hexo+icarus主题配置
-date: 2019-04-29 17:31:10
 tags: Hexo
-categories: 教程 
+categories: 教程
 thumbnail: false
 comments: true
 toc: true
 disqusId: ccyhweb
+abbrlink: f79a
+date: 2019-04-29 17:31:10
 ---
 
 

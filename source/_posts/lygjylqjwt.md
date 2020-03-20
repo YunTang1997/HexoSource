@@ -1,12 +1,13 @@
 ---
 title: 利用归结原理求解问题
-date: 2020-03-08 11:18:11
 tags: AI
 categories: 人工智能
 thumbnail: false
 comments: true
 toc: true
 disqusId: ccyhweb
+abbrlink: a36d
+date: 2020-03-08 11:18:11
 ---
 
 

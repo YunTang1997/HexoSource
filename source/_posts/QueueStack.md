@@ -1,11 +1,13 @@
 ---
 title: 【数据结构】栈与队列
-date: 2019-03-10 18:46:04
 tags: List
 categories: 数据结构
 toc: true
 comments: true
-thumbnail: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548581470072&di=ee7f02ae4ffa2ccc6257101f77c6b5d9&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170627%2Fa3e6109615584b62a5eb86fe79243270_th.jpg'
+thumbnail: >-
+  https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548581470072&di=ee7f02ae4ffa2ccc6257101f77c6b5d9&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170627%2Fa3e6109615584b62a5eb86fe79243270_th.jpg
+abbrlink: b172
+date: 2019-03-10 18:46:04
 ---
 
 

@@ -1,11 +1,13 @@
 ---
 title: 【工具】HexoEditor编辑器的安装配置及使用
-date: 2018-12-27 21:09:02
 tags: Tools
 toc: true
 categories: 工具
-thumbnail: 'https://raw.githubusercontent.com/zhuzhuyule/HexoEditor/master/icons/HexoEditor.svg?sanitize=true'
+thumbnail: >-
+  https://raw.githubusercontent.com/zhuzhuyule/HexoEditor/master/icons/HexoEditor.svg?sanitize=true
 comments: true
+abbrlink: '4861'
+date: 2018-12-27 21:09:02
 ---
 
 ---

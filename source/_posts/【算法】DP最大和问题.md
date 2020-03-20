@@ -1,11 +1,12 @@
 ---
 title: 【算法】DP最大和问题
-date: 2019-03-17 19:55:27
 tags: Knapsack
 categories: 算法
-thumbnail: "https://media-cdn.jiuzhang.com/course/dp3_LkMISIN.png"
+thumbnail: 'https://media-cdn.jiuzhang.com/course/dp3_LkMISIN.png'
 comments: true
 toc: true
+abbrlink: e22c
+date: 2019-03-17 19:55:27
 ---
 ### 动态规划
 ------------

@@ -1,11 +1,12 @@
 ---
 title: 【数据结构】数组、矩阵、和广义表
-date: 2019-03-01 18:46:04
 comments: true
 toc: true
 tags: Array
 categories: 数据结构
 thumbnail: false
+abbrlink: c73b
+date: 2019-03-01 18:46:04
 ---
 
 

@@ -1,11 +1,13 @@
 ---
 title: 【数据结构】 字符串
-date: 2019-03-11 18:46:04
 tags: String
 categories: 数据结构
 toc: true
 comments: true
-thumbnail: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548580675099&di=6efdd9be8a2394de553173ab69c0bb70&imgtype=0&src=http%3A%2F%2Fs1.knowsky.com%2F20170206%2Fp3rqnw1kmbl32.png'
+thumbnail: >-
+  https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548580675099&di=6efdd9be8a2394de553173ab69c0bb70&imgtype=0&src=http%3A%2F%2Fs1.knowsky.com%2F20170206%2Fp3rqnw1kmbl32.png
+abbrlink: '9121'
+date: 2019-03-11 18:46:04
 ---
 
 #### 串的定义

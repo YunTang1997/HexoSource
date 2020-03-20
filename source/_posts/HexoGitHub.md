@@ -1,11 +1,13 @@
 ---
 title: 【教程】Hexo+Github博客搭建
-date: 2018-12-26 10:20:24
 tags: Blog
 categories: 教程
 toc: true
-thumbnail: 'https://qcloud.coding.net/u/vincentqin/p/blogResource/git/raw/master/build-a-website-using-hexo/hexo-cover.png'
+thumbnail: >-
+  https://qcloud.coding.net/u/vincentqin/p/blogResource/git/raw/master/build-a-website-using-hexo/hexo-cover.png
 comments: true
+abbrlink: fdd9
+date: 2018-12-26 10:20:24
 ---
 ## 开始
 <!-- more -->

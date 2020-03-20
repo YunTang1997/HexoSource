@@ -1,12 +1,14 @@
 ---
 title: SegmentTree
-date: 2020-01-29 16:41:27
 tags: Tree
 categories: 数据结构
-thumbnail: "https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/SegmentTree/20200129085313108.png"
+thumbnail: >-
+  https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/SegmentTree/20200129085313108.png
 comments: true
 toc: true
 disqusId: ccyhweb
+abbrlink: bb82
+date: 2020-01-29 16:41:27
 ---
 
 ## 线段树

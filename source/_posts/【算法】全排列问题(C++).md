@@ -1,11 +1,12 @@
 ---
 title: 【算法】全排列问题
-date: 2019-03-13 12:32:26
 tags: Algorithm
 categories: 算法
 thumbnail: false
-comments: 
 toc: true
+abbrlink: b0bf
+date: 2019-03-13 12:32:26
+comments:
 ---
 #### 算法思想：
 

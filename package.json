@@ -31,6 +31,7 @@
     "live2d-widget-model-haru": "^1.0.5",
     "live2d-widget-model-hibiki": "^1.0.5",
     "live2d-widget-model-hijiki": "^1.0.5",
-    "live2d-widget-model-z16": "^1.0.5"
+    "live2d-widget-model-z16": "^1.0.5",
+    "hexo-tag-cloud": "2.1.*"
   }
 }

@@ -20,6 +20,7 @@ var nightIcon;
 function applyNight(value) {
     if (value == 'true') {
         document.body.className += ' night'
+        document.cookie = "isnight=1;usr=guest";
         if (nightIcon) {
             nightIcon.className = nightIcon.className.replace(/ fa-moon/g, '') + ' fa-lightbulb'
         }
@@ -46,6 +47,8 @@ function findNightIcon() {
     }
 }
 
+
+
 function switchNight() {
 
     if (isNight == 'false') {
@@ -53,7 +56,6 @@ function switchNight() {
     } else {
         isNight = 'false';
     }
-
     applyNight(isNight);
     localStorage.setExpire('night', isNight, expireTime1H);
 }

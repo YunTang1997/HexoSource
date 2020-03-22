@@ -36,25 +36,8 @@
 
             
             <div class="level-end">
-            <% if (has_config('footer.links')) { %>
-                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
-                <% let links = get_config('footer.links'); %>
-                <% for (let name in links) {
-                        let link = links[name]; %>
-                <p class="control">
-                    <a class="button is-white <%= typeof(link) !== 'string' ? 'is-large' : '' %>" target="_blank" title="<%= name %>" href="<%= url_for(typeof(link) === 'string' ? link : link.url) %>">
-                        <% if (typeof(link) === 'string') { %>
-                        <%= name %>
-                        <% } else { %>
-                        <i class="<%= link.icon %>"></i>
-                        <% } %>
-                    </a>
-                </p>
-                <% } %>
-                </div>
-            <% } %>
+                <script type="text/javascript" src="//rf.revolvermaps.com/0/0/0.js?i=0xetp0d4rdh&amp;d=2&amp;p=1&amp;b=3&amp;w=293&amp;g=2&amp;f=comic_sans_ms&amp;fs=12&amp;r=0&amp;c0=54ff00&amp;c1=00fff6&amp;c2=9d8b63&amp;ic0=0&amp;ic1=0" async="async"></script>
             </div>
-        <div align="center">
             <script>
                 var now = new Date(); 
                 function createtime() { 
@@ -71,13 +54,8 @@
                 } 
                 setInterval("createtime()",250);
             </script>
-        </div>
 
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-        <span>
-        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/4.js?i=0xetp0d4rdh&amp;m=7&amp;h=60&amp;c=ff8a00&amp;r=40" async="async"></script>
-        </span>
         </div>
 
     </div>

@@ -41,6 +41,8 @@
                 <a class="navbar-item search" title="<%= __('search.search') %>" href="javascript:;">
                     <i class="fas fa-search"></i>
                 </a>
+                <%- _js('js/theme-setting.js', true) %>
+                <a class="navbar-item" id="night-nav" title="Night Mode" href="javascript:;" data-pjax-state=""><i class="fas fa-moon" id="night-icon" onclick="switchNight()"></i></a>
                 <% } %>
             </div>
         </div>

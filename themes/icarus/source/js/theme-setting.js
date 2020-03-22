@@ -20,6 +20,8 @@ var nightIcon;
 function applyNight(value) {
     if (value == 'true') {
         document.body.className += ' night'
+        document.navbar.className += ' night'
+        document.footer.className += ' night'
         if (nightIcon) {
             nightIcon.className = nightIcon.className.replace(/ fa-moon/g, '') + ' fa-lightbulb'
         }
@@ -35,7 +37,8 @@ function findNightIcon() {
     nightNav = document.getElementById('night-nav');
     nightIcon = document.getElementById('night-icon');
     if (!nightNav || !nightIcon) {
-        setTimeout(findNightIcon, 100);
+        alert("hello");
+        setTimeout(findNightIcon(), 100);
     } else {
         nightNav.addEventListener('click', switchNight);
         if (isNight) {

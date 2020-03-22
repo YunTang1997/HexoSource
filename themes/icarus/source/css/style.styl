@@ -8,15 +8,17 @@ screen-fullhd = 1472px
 
 /* ---------------------------------
  *       Override CSS Framework background-color: rgba(230,230,230,0.4);
+     background: linear-gradient(to right,rgba(257,149,52,0.9),rgba(240,90,109,0.9),rgba(126,107,176,0.9),rgba(7,178,155,0.9),rgba(106,185,130,0.9))
+
         background-color: rgba(250,249,222,0.9);
         background: linear-gradient(45deg,rgba(254,172,94,0.8),rgba(199,121,208,0.8),rgba(75,192,200,0.8))
         background-image: url('https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%E4%BA%91-%E6%B2%B9%E7%94%BB.jpg');
  * --------------------------------- */
 html
     font-size: 12px
-    cursor: url('./menghuan.ico')
 
 body
+    cursor: url('./menghuan.ico');
     background-color: transparent;
     background-repeat:no-repeat;
     background-size: cover;
@@ -114,7 +116,7 @@ img.thumbnail
         max-height: 4rem
 
 .navbar-main
-    background: linear-gradient(to right,rgba(257,149,52,0.9),rgba(240,90,109,0.9),rgba(126,107,176,0.9),rgba(7,178,155,0.9),rgba(106,185,130,0.9))
+    background-color: rgba(255, 255, 255, 0.5);
     font-weight: bold
     font-family: Lato, sans-serif;
     font-size: 14px
@@ -126,8 +128,6 @@ img.thumbnail
         border-radius: 3px;
         padding-top: 4px;
         padding-bottom: 4px;
-        padding-left: 6px;
-        padding-right: 6px;
         margin-top: auto;
         margin-bottom: auto;
         background-color: white;
@@ -135,7 +135,7 @@ img.thumbnail
     a:active
         color: yellow
     a:focus
-        color: orange
+        color: #77C08F
     .navbar-menu,
     .navbar-start,
     .navbar-end
@@ -149,6 +149,7 @@ img.thumbnail
     .navbar-start
         justify-content: flex-start
         margin-right: auto
+        
     .navbar-end
         justify-content: flex-end
         margin-left: auto
@@ -169,17 +170,17 @@ img.thumbnail
             margin-left: 0
 
 .navbar-main:hover
-    box-shadow: 0 0 10px rgba(50,163,84,0.7);
+    box-shadow: 0 2px 10px rgba(50,163,84,0.7);
 
 .footer
-    background: linear-gradient(to right,rgba(257,149,52,0.9),rgba(240,90,109,0.9),rgba(126,107,176,0.9),rgba(7,178,155,0.9),rgba(106,185,130,0.9))
+    background-color: rgba(255,255,255,0.5);
     font-family: Lato, sans-serif
     margin: 0px
     .field
         .button
             background: transparent
 .footer:hover
-    box-shadow: 0 0 10px rgba(50,163,84,0.7);
+    box-shadow: 0 -2px 3px -1px rgba(50,163,84,0.7);
 .widget
     .media
         border: none
@@ -534,9 +535,10 @@ night-color-hover = #7a7a7a
 night-link = #77C08F
 
 .night {
-    
+
     color: silver!important;
     background-color black;
+    
     .aplayer .aplayer-miniswitcher {
         background:#c0c0c0 !important;
     }
@@ -621,6 +623,14 @@ night-link = #77C08F
 
     .navbar-menu a:hover {
         color: night-link
+        height: 30px;
+        border-radius: 3px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background-color: night-color;
+        color: #77C08F
     }
 
     .post-copyright {
@@ -706,8 +716,11 @@ night-link = #77C08F
     .navbar {
         background-color night-color
     }
-    .card {
+    .navbar-main {
         background-color night-color
+    }
+    .card {
+        background-color: rgba(255, 255, 255, 0.1)
         box-shadow: none;
     }
     .footer {

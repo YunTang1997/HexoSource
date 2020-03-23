@@ -1,3 +1,4 @@
+<% if(is_post() || index) { %> 
 <div class="card">
     <% if (has_thumbnail(post)) { %>
     <div class="card-image">
@@ -78,7 +79,7 @@
 
         <% if (!index && has_config('share.type')) { %>
         <%- partial('share/' + get_config('share.type')) %>
-        <% if (!index) { %>
+        <% if (is_post()) { %>
   <div>
     <ul class="post-copyright">
       <li class="post-copyright-author">
@@ -105,7 +106,7 @@
 </div>
 
 <% const services = has_config('donate') ? get_config('donate') : []; %>
-<% if (!index && services.length > 0) { %>
+<% if (is_post() && services.length > 0) { %>
 <div class="card">
     <div class="card-content">
         <h3 class="menu-label has-text-centered"><%= __('donate.title') %></h3>
@@ -121,7 +122,7 @@
 </div>
 <% } %>
 
-<% if (!index && (post.prev || post.next)) { %>
+<% if (is_post() && (post.prev || post.next)) { %>
 <div class="card card-transparent">
     <div class="level post-navigation is-flex-wrap is-mobile">
         <% if (post.prev){ %>
@@ -144,11 +145,13 @@
 </div>
 <% } %>
 
-<% if (!index && has_config('comment.type')) { %>
+<% if (!index && has_config('comment.type') && is_post()) { %>
 <div class="card">
     <div class="card-content">
         <h3 class="title is-5 has-text-weight-normal"><%= __('article.comments') %></h3>
         <%- partial('comment/' + get_config('comment.type')) %>
     </div>
 </div>
+<% } %>
+
 <% } %>

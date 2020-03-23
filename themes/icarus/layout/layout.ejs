@@ -24,6 +24,7 @@
     } %>
     <% function col(){
     if(!is_post()){
+        if(is_page()) return 'is-12';
         return main_column_class();
         }
     else{
@@ -36,7 +37,9 @@
                 <div class="column <%= col() %> has-order-2 column-main">
                     <%- body %>
                 </div>
+                <% if(!is_page()) { %> 
                 <%- partial('common/widget', { position: 'left' }) %>
+                <% } %> 
                 <% if(page.__page !== true && page.__post !== true) { %> 
                 <%- partial('common/widget', { position: 'right' }) %>
                 <% } %> 

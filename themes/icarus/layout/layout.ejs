@@ -13,9 +13,9 @@
     
         switch (column_count()) {
             case 1:
-                return 'is-10';
+                return 'is-12';
             case 2:
-                return 'is-6-tablet is-6-desktop is-10-widescreen';
+                return 'is-8-tablet is-9-desktop is-9-widescreen';
             case 3:
                 return 'is-8-tablet is-8-desktop is-6-widescreen';
         }
@@ -27,7 +27,7 @@
         return main_column_class();
         }
     else{
-        return 'is-6-tablet is-6-desktop is-9-widescreen';
+        return 'is-8-tablet is-9-desktop is-9-widescreen';
         } 
     } %>
     <section class="section">
@@ -37,7 +37,9 @@
                     <%- body %>
                 </div>
                 <%- partial('common/widget', { position: 'left' }) %>
+                <% if(page.__page !== true && page.__post !== true) { %> 
                 <%- partial('common/widget', { position: 'right' }) %>
+                <% } %> 
             </div>
         </div>
     </section>

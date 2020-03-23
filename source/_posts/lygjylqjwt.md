@@ -5,6 +5,7 @@ categories: 人工智能
 thumbnail: false
 comments: true
 toc: true
+top: 2
 disqusId: ccyhweb
 abbrlink: a36d
 date: 2020-03-08 11:18:11
